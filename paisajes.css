@@ -1,0 +1,120 @@
+body{
+	background-color: white;
+	font-family: 'Dancing Script', Arial;
+}
+header{
+	height: 80px;
+}
+.fondo{
+	background-color: #5b7989; 
+	height: 80px;
+	border-radius: 10px 10px 0 0;
+}
+.tex1{
+	text-shadow: 2px 2px 2px #02020a;
+}
+nav{
+	width: 100%;
+}
+.menu{
+	float: right;
+	margin-right: 150px;
+	margin-top: 11px;
+
+}
+.menu li{
+	display: inline-block;
+	padding-left: 130px;
+    text-decoration: none;
+ }   
+.menu a{
+	color: #f8f8f8;
+	text-decoration: none;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px #02020a;
+	margin-right: 5px;
+}	
+.menu li a:hover {
+	background-color: #80002a;
+	padding: 10px 8px 10px 8px;
+}
+.menu a:hover{
+	background-color: white;
+	color: #780F19;
+	font-weight: bold;
+}
+.l1{
+	float: left;
+}
+.l1 p{
+	width: 300px;
+	margin-top: 23px;
+	margin-left: 30px;
+	color: white;
+	font-size: 26px;
+}
+section{
+	height: 800px;
+	width: 100%;
+}	
+.imagen{
+	background-color: #82c3a6;
+	height: 380px;
+	width: 100%;
+	text-align: center;
+}
+.imagen img{
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #02010a;
+	height: 335px;
+	width: 400px;
+	margin-top: 18px;
+	border: 3px solid black;
+	margin-left: 20px;
+	text-align: center;	
+}	
+.images{
+	background-color: #d5c75f;
+	height: 390px;
+	width: 100%;
+	text-align: center;
+}
+.images img{
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #02010a;
+	height: 335px;
+	width: 400px;
+	margin-top: 18px;
+	border: 3px solid black;
+	margin-left: 20px;
+}
+footer{
+	background-color: #C6d5c5;
+	height: 230px;
+	border-radius: 0 0 10px 10px;
+}
+.footer{
+	margin-top: -2%;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: 20px;
+}
+.informacion{
+	width: 300px;
+	font-size: 22px;
+	margin-left: 110px;
+}
+#facebook{
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+#instagram{
+	height: 20px;
+	width: 20px;
+}
+#google{
+	height: 20px;
+	width: 20px;
+}
